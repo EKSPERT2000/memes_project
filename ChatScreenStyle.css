@@ -1,0 +1,58 @@
+.odin{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: -7px;
+    top: 8px;
+    border-radius: 20px;
+    
+    background: url(1729783518163659930.png);
+}   
+.dva {
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 0px;
+    top: 512px;
+    border-radius: 20px;
+    background: url(image.png);
+    
+}
+.tri{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 950px;
+    top: 0px;
+    border-radius: 20px;
+    background: url(image.png);
+}
+.choturi{
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 950px;
+    top: 512px;
+    border-radius: 20px;
+    background: url(image.png);
+}
+button{/* SUPPORT🔨️ */
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1500px;
+    top: 15px;
+    border-radius: 70%;
+    border-color: cornflowerblue;
+    background-color: darkgrey;
+    font-family: impact, sans-serif;
+    font-size: 19px;
+   
+   
+}
+button:hover{background-color: crimson;}
+body{
+background-image: url(5a4460cd0d49c1609b1a20fe.jpg);
+}
+    
