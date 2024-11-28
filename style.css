@@ -1,37 +1,204 @@
-
 /* Desktop - 1 */
-body{
-position: relative;
-width: 1440px;
-height: 1024px;
-margin-left: 100px;
+body{  
 background: #FFFFFF;
 }
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
 
+
+}
 /* Frame 1 */
 .main{
 box-sizing: border-box;
-margin-left: 100px;
-position: absolute;
+margin: 0 auto;
 width: 1440px;
 height: 154px;
-left: 0px;
-top: 0px;
-
-
 background: #838383;
 border: 1px solid #000000;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
+
 .logo{
-position: absolute;
 width: 138px;
 height: 125px;
-left: 0px;
-top: 4px;
 margin-left: 75px;
 border-radius: 72.5px;
 }
+
+
+.sait-name{
+    /* MEMES GENIUS */
+width: 300px;
+margin-left: 30px;
+margin-right: auto;
+font-style: normal;
+font-weight: 200px;
+font-size: 30px;
+line-height: 50px;
+font-family: "Oswald", sans-serif;
+
+color: #FFD900;
+}
+
+.meme-btn{
+/* mems */
+
+width: 250px;
+height: 50px;
+margin-left: auto;
+margin-right: 30px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 200;
+font-size: 35px;
+line-height: 40px;
+
+color: rgb(31,22,7, 1);
+border-radius: 22px;
+cursor: pointer;
+background-color: #AEA46B;
+}
+.custom-btn {
+    width: 200px;
+    height: 50px;
+    color: rgba(31,22,7, 1);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-8 {
+    background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #FFD900 74%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-8 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-8:before,
+  .btn-8:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #FFD900;
+    /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+    transition: all 0.3s ease;
+  }
+  .btn-8:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-8:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-8:hover:before {
+    height: 100%;
+  }
+  .btn-8:hover:after {
+    width: 100%;
+  }
+  .btn-8:hover{
+    background: transparent;
+  }
+  .btn-8 span:hover{
+    color: #FFD900;
+  }
+  .btn-8 span:before,
+  .btn-8 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #FFD900;
+    /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+    transition: all 0.3s ease;
+  }
+  .btn-8 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-8 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-8 span:hover:before {
+    height: 100%;
+  }
+  .btn-8 span:hover:after {
+    width: 100%;
+  }
+    
+  
+  /* 9 */
+  .btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+.main-two{
+/* Dyzayn-ofisu-foto-9 1 */
+width: 1440px;
+height: 836px;
+margin: 0 auto;
+background-image: url(Dyzayn-ofisu-foto-91.png);
+
+}
+
+/* Меми, які піднімуть настрій! Наш сайт — це місце, де гумор не має меж. Ми збираємо найсвіжіші, найсмішніші та найпопулярніші меми, які гарантовано викличуть посмішку. Незалежно від того, який у вас сьогодні день, наші меми допоможуть зробити його кращим! Заходьте до нас за порцією позитивних емоцій та діліться мемами з друзями! */
+.opus{
+position: absolute;
+width: 617px;
+height: 449px;
+left: 34px;
+top: 173px;
+margin-left: 100px;
+font-family: 'Inter', sans-serif;
+font-style: italic;
+font-size: 32px;
+line-height: 39px;
+padding: 20px;
+border: 2px solid #FFD900;
+border-radius: 25px;
+background-color: rgb(31,22,7, 0.4);
+
+color: #FFF;
+}
+/* C:\Users\Маневич\Desktopbackground: url(Dyzayn-ofisu-foto-9.jpg);\photo_2024-10-31_18-44-27.png , */
+.footer{
+    display: inline;
+ margin-top: 1000px;
+    color: red;
+}
+    
+/*#c797eb
 
 
 .sait-name{
