@@ -1,3 +1,4 @@
+
 /* Desktop - 1 */
 body{  
 background: #FFFFFF;
@@ -193,84 +194,8 @@ color: #FFF;
 }
 /* C:\Users\Маневич\Desktopbackground: url(Dyzayn-ofisu-foto-9.jpg);\photo_2024-10-31_18-44-27.png , */
 .footer{
-    display: inline;
- margin-top: 1000px;
+
     color: red;
 }
     
 /*#c797eb
-
-
-.sait-name{
-    /* MEMES GENIUS */
-position: absolute;
-width: 177px;
-height: 43px;
-left: 154px;
-top: calc(50% - 43px/2 + 15.5px);
-margin-left: 75px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFD900;
-}
-
-.meme-btn{
-/* mems */
-
-position: absolute;
-width: 150px;
-height: 50px;
-left: 550px;
-top: 65px;
-margin-left: 600px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 200;
-font-size: 30px;
-line-height: 40px;
-
-color: #FFFFFF;
-border-radius: 22px;
-cursor: pointer;
-}
-
-.main-two{
-/* Dyzayn-ofisu-foto-9 1 */
-
-position: absolute;
-width: 1440px;
-height: 836px;
-left: 0px;
-top: 154px;
-margin-left: 100px;
-background-image: url(Dyzayn-ofisu-foto-91.png);
-
-}
-
-/* Меми, які піднімуть настрій! Наш сайт — це місце, де гумор не має меж. Ми збираємо найсвіжіші, найсмішніші та найпопулярніші меми, які гарантовано викличуть посмішку. Незалежно від того, який у вас сьогодні день, наші меми допоможуть зробити його кращим! Заходьте до нас за порцією позитивних емоцій та діліться мемами з друзями! */
-.opus{
-position: absolute;
-width: 617px;
-height: 449px;
-left: 34px;
-top: 173px;
-margin-left: 100px;
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 32px;
-line-height: 39px;
-
-color: #AEA46B;
-}
-/* C:\Users\Маневич\Desktopbackground: url(Dyzayn-ofisu-foto-9.jpg);\photo_2024-10-31_18-44-27.png , */
-.footer{
-    display: inline;
- margin-top: 1000px;
-    color: red;
-}
-    
